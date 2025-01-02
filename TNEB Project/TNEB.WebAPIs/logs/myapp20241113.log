@@ -1,0 +1,548 @@
+2024-11-13 11:06:10.371 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:06:10.436 +05:30 [INF] GetorgAssign_PA00004
+2024-11-13 11:06:10.419 +05:30 [INF] GetorgAssign_PA00003
+2024-11-13 11:06:10.440 +05:30 [INF] GetorgAssign_PA00005
+2024-11-13 11:06:10.457 +05:30 [INF] GetorgAssign_PA00006
+2024-11-13 11:06:10.483 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:06:10.484 +05:30 [INF] Next Method -GetorgAssign_PA00004
+2024-11-13 11:06:10.484 +05:30 [INF] Next Method -GetorgAssign_PA00003
+2024-11-13 11:06:10.484 +05:30 [INF] Next Method -GetorgAssign_PA00005
+2024-11-13 11:06:10.484 +05:30 [INF] Next Method -GetorgAssign_PA00006
+2024-11-13 11:06:10.491 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:06:10.498 +05:30 [INF] Method -GetorgAssign_PA00004
+2024-11-13 11:06:10.500 +05:30 [INF] Method -GetorgAssign_PA00003
+2024-11-13 11:06:10.502 +05:30 [INF] Method -GetorgAssign_PA00005
+2024-11-13 11:06:10.505 +05:30 [INF] Method -GetorgAssign_PA00006
+2024-11-13 11:06:10.507 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:06:10.508 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110
+2024-11-13 11:06:10.512 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110
+2024-11-13 11:06:10.513 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110
+2024-11-13 11:06:10.514 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110
+2024-11-13 11:06:10.518 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:10.518 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:10.519 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:10.518 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:10.521 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:10.548 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.548 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.550 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.550 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.551 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.553 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.556 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.557 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.558 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:06:10.560 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:06:32.575 +05:30 [INF] GetorgAssign_PA00003
+2024-11-13 11:06:32.858 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:06:33.826 +05:30 [INF] Next Method -GetorgAssign_PA00003
+2024-11-13 11:06:35.662 +05:30 [INF] Method -GetorgAssign_PA00003
+2024-11-13 11:06:34.753 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:06:37.329 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110
+2024-11-13 11:06:36.311 +05:30 [INF] GetorgAssign_PA00006
+2024-11-13 11:06:36.850 +05:30 [INF] GetorgAssign_PA00005
+2024-11-13 11:06:39.459 +05:30 [INF] Next Method -GetorgAssign_PA00006
+2024-11-13 11:06:39.233 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:40.006 +05:30 [INF] Method -GetorgAssign_PA00006
+2024-11-13 11:06:39.942 +05:30 [INF] Next Method -GetorgAssign_PA00005
+2024-11-13 11:06:40.484 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110
+2024-11-13 11:06:40.857 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:06:40.940 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:41.692 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:06:41.783 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:06:38.323 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:06:43.619 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:06:40.858 +05:30 [INF] Method -GetorgAssign_PA00005
+2024-11-13 11:06:45.435 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:06:46.084 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110
+2024-11-13 11:06:50.957 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:55.500 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:06:37.345 +05:30 [INF] GetorgAssign_PA00004
+2024-11-13 11:07:01.598 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:07:04.552 +05:30 [INF] Next Method -GetorgAssign_PA00004
+2024-11-13 11:07:06.555 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:07:00.625 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:07.143 +05:30 [INF] Method -GetorgAssign_PA00004
+2024-11-13 11:06:55.355 +05:30 [INF] Received HTTP response headers after 11867.7327ms - 200
+2024-11-13 11:07:09.552 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110
+2024-11-13 11:06:55.349 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:07:12.046 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:10.168 +05:30 [INF] End processing HTTP request after 29312.0332ms - 200
+2024-11-13 11:06:55.348 +05:30 [INF] Received HTTP response headers after 9469.0373ms - 200
+2024-11-13 11:07:12.055 +05:30 [INF] Received HTTP response headers after 4884.7196ms - 200
+2024-11-13 11:07:12.064 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:07:12.069 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:13.178 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:07:12.058 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:07:09.361 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:20.841 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 33
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetFamilyDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 86
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetFamilyDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 88
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0005(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 73
+   at lambda_method40(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 106
+2024-11-13 11:07:23.188 +05:30 [INF] GetorgAssign_PA00005
+2024-11-13 11:07:14.012 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 33
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 64
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 62
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 51
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 106
+2024-11-13 11:07:17.883 +05:30 [INF] Received HTTP response headers after 4211.5219ms - 200
+2024-11-13 11:07:20.351 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 33
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetaddressDet_PA0006(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 93
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetaddressDet_PA0006(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 101
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetaddressDet_PA0006(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 80
+   at lambda_method43(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 106
+2024-11-13 11:07:20.843 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 33
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalChallangesAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 79
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalChallangesAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 81
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalChallenges_PA0004(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 66
+   at lambda_method52(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 106
+2024-11-13 11:07:23.488 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (192.168.190.85:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 33
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 71
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 69
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 58
+   at lambda_method29(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 106
+2024-11-13 11:07:22.386 +05:30 [INF] GetorgAssign_PA00004
+2024-11-13 11:07:21.761 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:07:13.663 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-13 11:07:14.012 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:07:22.130 +05:30 [INF] GetorgAssign_PA00003
+2024-11-13 11:07:12.069 +05:30 [INF] End processing HTTP request after 30286.5885ms - 200
+2024-11-13 11:07:12.935 +05:30 [INF] End processing HTTP request after 11337.3645ms - 200
+2024-11-13 11:07:22.612 +05:30 [INF] Received HTTP response headers after 1276.8299ms - 200
+2024-11-13 11:07:23.499 +05:30 [INF] GetorgAssign_PA00006
+2024-11-13 11:07:23.996 +05:30 [INF] Next Method -GetorgAssign_PA00005
+2024-11-13 11:07:24.056 +05:30 [INF] End processing HTTP request after 11992.4484ms - 200
+2024-11-13 11:07:24.416 +05:30 [INF] Next Method -GetorgAssign_PA00004
+2024-11-13 11:07:24.424 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:07:24.473 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:07:24.475 +05:30 [INF] Next Method -GetorgAssign_PA00003
+2024-11-13 11:07:24.489 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.496 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.528 +05:30 [INF] End processing HTTP request after 23902.8211ms - 200
+2024-11-13 11:07:24.530 +05:30 [INF] Next Method -GetorgAssign_PA00006
+2024-11-13 11:07:24.538 +05:30 [INF] Method -GetorgAssign_PA00005
+2024-11-13 11:07:24.545 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.554 +05:30 [INF] Method -GetorgAssign_PA00004
+2024-11-13 11:07:24.558 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:07:24.571 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.576 +05:30 [INF] Method -GetorgAssign_PA00003
+2024-11-13 11:07:24.607 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.610 +05:30 [INF] Method -GetorgAssign_PA00006
+2024-11-13 11:07:24.617 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110
+2024-11-13 11:07:24.628 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110
+2024-11-13 11:07:24.632 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:07:24.634 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.635 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110
+2024-11-13 11:07:24.639 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110
+2024-11-13 11:07:24.640 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.641 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.649 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.652 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.654 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.657 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.666 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.689 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.708 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.718 +05:30 [INF] Received HTTP response headers after 41.6377ms - 200
+2024-11-13 11:07:24.668 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.656 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.683 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.773 +05:30 [INF] Received HTTP response headers after 51.6955ms - 200
+2024-11-13 11:07:24.775 +05:30 [INF] End processing HTTP request after 140.615ms - 200
+2024-11-13 11:07:24.778 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.783 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.801 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.787 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.791 +05:30 [INF] End processing HTTP request after 133.6501ms - 200
+2024-11-13 11:07:24.823 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.846 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.845 +05:30 [INF] Received HTTP response headers after 41.3228ms - 200
+2024-11-13 11:07:24.785 +05:30 [INF] Received HTTP response headers after 33.7706ms - 200
+2024-11-13 11:07:24.868 +05:30 [INF] Received HTTP response headers after 39.2935ms - 200
+2024-11-13 11:07:24.871 +05:30 [INF] End processing HTTP request after 202.5034ms - 200
+2024-11-13 11:07:24.886 +05:30 [INF] End processing HTTP request after 203.1485ms - 200
+2024-11-13 11:07:24.886 +05:30 [INF] Received HTTP response headers after 37.3377ms - 200
+2024-11-13 11:07:24.874 +05:30 [INF] End processing HTTP request after 207.7755ms - 200
+2024-11-13 11:07:24.895 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.896 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.903 +05:30 [INF] End processing HTTP request after 120.3307ms - 200
+2024-11-13 11:07:24.906 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.917 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-13 11:07:24.939 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:24.941 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:07:24.960 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:07:24.962 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:07:24.973 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:07:24.980 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:24.986 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:24.989 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:25.038 +05:30 [INF] Received HTTP response headers after 34.0492ms - 200
+2024-11-13 11:07:25.044 +05:30 [INF] End processing HTTP request after 58.0172ms - 200
+2024-11-13 11:07:25.055 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:54.475 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:07:54.487 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:07:54.489 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:07:54.491 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:07:54.497 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:54.508 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.508 +05:30 [INF] GetorgAssign_PA00003
+2024-11-13 11:07:54.559 +05:30 [INF] GetorgAssign_PA00004
+2024-11-13 11:07:54.615 +05:30 [INF] GetorgAssign_PA00005
+2024-11-13 11:07:54.642 +05:30 [INF] Next Method -GetorgAssign_PA00005
+2024-11-13 11:07:54.625 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.631 +05:30 [INF] Next Method -GetorgAssign_PA00003
+2024-11-13 11:07:54.636 +05:30 [INF] Next Method -GetorgAssign_PA00004
+2024-11-13 11:07:54.678 +05:30 [INF] Method -GetorgAssign_PA00004
+2024-11-13 11:07:54.653 +05:30 [INF] Method -GetorgAssign_PA00005
+2024-11-13 11:07:54.623 +05:30 [INF] GetorgAssign_PA00006
+2024-11-13 11:07:54.658 +05:30 [INF] Method -GetorgAssign_PA00003
+2024-11-13 11:07:54.682 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110
+2024-11-13 11:07:54.683 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110
+2024-11-13 11:07:54.685 +05:30 [INF] Next Method -GetorgAssign_PA00006
+2024-11-13 11:07:54.686 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110
+2024-11-13 11:07:54.687 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:54.689 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:54.699 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.691 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:54.696 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.690 +05:30 [INF] Method -GetorgAssign_PA00006
+2024-11-13 11:07:54.718 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.720 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.719 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.817 +05:30 [INF] Received HTTP response headers after 93.7662ms - 200
+2024-11-13 11:07:54.798 +05:30 [INF] Received HTTP response headers after 142.2048ms - 200
+2024-11-13 11:07:54.949 +05:30 [INF] End processing HTTP request after 444.431ms - 200
+2024-11-13 11:07:54.721 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110
+2024-11-13 11:07:54.903 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:07:54.924 +05:30 [INF] End processing HTTP request after 224.8914ms - 200
+2024-11-13 11:07:54.954 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:54.889 +05:30 [INF] Received HTTP response headers after 35.6857ms - 200
+2024-11-13 11:07:55.006 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:55.032 +05:30 [INF] End processing HTTP request after 336.4633ms - 200
+2024-11-13 11:07:54.955 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:55.030 +05:30 [INF] Received HTTP response headers after 67.4508ms - 200
+2024-11-13 11:07:55.075 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:55.085 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:07:55.076 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:07:55.076 +05:30 [INF] End processing HTTP request after 357.7018ms - 200
+2024-11-13 11:07:55.117 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:07:55.123 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:07:55.135 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:55.139 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:07:55.154 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-13 11:07:55.155 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:07:55.165 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:07:55.167 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:55.169 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:07:55.185 +05:30 [INF] Received HTTP response headers after 38.7399ms - 200
+2024-11-13 11:07:55.195 +05:30 [INF] End processing HTTP request after 119.7463ms - 200
+2024-11-13 11:07:55.199 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:07:55.209 +05:30 [INF] Received HTTP response headers after 35.0994ms - 200
+2024-11-13 11:07:55.219 +05:30 [INF] End processing HTTP request after 52.4466ms - 200
+2024-11-13 11:07:55.223 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:08:08.190 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:08:08.192 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:08:08.194 +05:30 [INF] GetorgAssign_PA00003
+2024-11-13 11:08:08.195 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:08:08.199 +05:30 [INF] Next Method -GetorgAssign_PA00003
+2024-11-13 11:08:08.200 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:08:08.203 +05:30 [INF] Method -GetorgAssign_PA00003
+2024-11-13 11:08:08.204 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:08:08.208 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110
+2024-11-13 11:08:08.212 +05:30 [INF] GetorgAssign_PA00006
+2024-11-13 11:08:08.213 +05:30 [INF] GetorgAssign_PA00004
+2024-11-13 11:08:08.214 +05:30 [INF] GetorgAssign_PA00005
+2024-11-13 11:08:08.220 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.222 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:08:08.225 +05:30 [INF] Next Method -GetorgAssign_PA00006
+2024-11-13 11:08:08.229 +05:30 [INF] Next Method -GetorgAssign_PA00004
+2024-11-13 11:08:08.230 +05:30 [INF] Next Method -GetorgAssign_PA00005
+2024-11-13 11:08:08.232 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.234 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.237 +05:30 [INF] Method -GetorgAssign_PA00004
+2024-11-13 11:08:08.254 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110
+2024-11-13 11:08:08.235 +05:30 [INF] Method -GetorgAssign_PA00006
+2024-11-13 11:08:08.253 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.238 +05:30 [INF] Method -GetorgAssign_PA00005
+2024-11-13 11:08:08.256 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:08:08.261 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110
+2024-11-13 11:08:08.257 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110
+2024-11-13 11:08:08.266 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.267 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:08:08.268 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:08:08.270 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.271 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.272 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.278 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.278 +05:30 [INF] Received HTTP response headers after 38.1101ms - 200
+2024-11-13 11:08:08.280 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.291 +05:30 [INF] End processing HTTP request after 70.1974ms - 200
+2024-11-13 11:08:08.292 +05:30 [INF] Received HTTP response headers after 32.9967ms - 200
+2024-11-13 11:08:08.295 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:08:08.298 +05:30 [INF] End processing HTTP request after 63.2717ms - 200
+2024-11-13 11:08:08.304 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:08:08.305 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:08:08.305 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-13 11:08:08.306 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:08:08.312 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:08:08.313 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:08:08.315 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:08:08.316 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.317 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:08:08.327 +05:30 [INF] Received HTTP response headers after 34.6666ms - 200
+2024-11-13 11:08:08.329 +05:30 [INF] End processing HTTP request after 57.0944ms - 200
+2024-11-13 11:08:08.330 +05:30 [INF] Received HTTP response headers after 47.9598ms - 200
+2024-11-13 11:08:08.330 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:08:08.332 +05:30 [INF] End processing HTTP request after 61.2354ms - 200
+2024-11-13 11:08:08.334 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:08:08.344 +05:30 [INF] Received HTTP response headers after 70.0245ms - 200
+2024-11-13 11:08:08.346 +05:30 [INF] End processing HTTP request after 80.3824ms - 200
+2024-11-13 11:08:08.348 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:08:08.376 +05:30 [INF] Received HTTP response headers after 56.9056ms - 200
+2024-11-13 11:08:08.380 +05:30 [INF] End processing HTTP request after 63.7901ms - 200
+2024-11-13 11:08:08.381 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:14:14.463 +05:30 [INF] GetorgAssign_PA00003
+2024-11-13 11:14:14.463 +05:30 [INF] GetorgAssign_PA00005
+2024-11-13 11:14:14.463 +05:30 [INF] GetorgAssign_PA00004
+2024-11-13 11:14:14.463 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:14:14.463 +05:30 [INF] GetorgAssign_PA00006
+2024-11-13 11:14:14.500 +05:30 [INF] Next Method -GetorgAssign_PA00003
+2024-11-13 11:14:14.500 +05:30 [INF] Next Method -GetorgAssign_PA00005
+2024-11-13 11:14:14.511 +05:30 [INF] Next Method -GetorgAssign_PA00004
+2024-11-13 11:14:14.514 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:14:14.516 +05:30 [INF] Next Method -GetorgAssign_PA00006
+2024-11-13 11:14:14.518 +05:30 [INF] Method -GetorgAssign_PA00003
+2024-11-13 11:14:14.520 +05:30 [INF] Method -GetorgAssign_PA00005
+2024-11-13 11:14:14.527 +05:30 [INF] Method -GetorgAssign_PA00004
+2024-11-13 11:14:14.531 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:14:14.543 +05:30 [INF] Method -GetorgAssign_PA00006
+2024-11-13 11:14:14.544 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110
+2024-11-13 11:14:14.545 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110
+2024-11-13 11:14:14.547 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110
+2024-11-13 11:14:14.549 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:14:14.551 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110
+2024-11-13 11:14:14.566 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:14:14.567 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:14:14.568 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:14:14.569 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:14:14.571 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:14:14.575 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.575 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.576 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.578 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.579 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.582 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.584 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.586 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.590 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.597 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0006_AddressSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.761 +05:30 [INF] Received HTTP response headers after 155.623ms - 200
+2024-11-13 11:14:14.761 +05:30 [INF] Received HTTP response headers after 157.4184ms - 200
+2024-11-13 11:14:14.770 +05:30 [INF] End processing HTTP request after 196.996ms - 200
+2024-11-13 11:14:14.780 +05:30 [INF] End processing HTTP request after 205.8913ms - 200
+2024-11-13 11:14:14.787 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:14:14.790 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:14:14.798 +05:30 [INF] Received HTTP response headers after 184.4937ms - 200
+2024-11-13 11:14:14.837 +05:30 [INF] Received HTTP response headers after 213.7839ms - 200
+2024-11-13 11:14:14.848 +05:30 [INF] End processing HTTP request after 270.426ms - 200
+2024-11-13 11:14:14.860 +05:30 [INF] Received HTTP response headers after 251.8224ms - 200
+2024-11-13 11:14:14.861 +05:30 [INF] End processing HTTP request after 282.3295ms - 200
+2024-11-13 11:14:14.868 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:14:14.873 +05:30 [INF] End processing HTTP request after 299.5484ms - 200
+2024-11-13 11:14:14.876 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:14:14.879 +05:30 [INF] SendGetRequestAsync enters if
+2024-11-13 11:14:14.884 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-13 11:14:14.886 +05:30 [INF] GetorgAssign_PA00002
+2024-11-13 11:14:14.890 +05:30 [INF] Next Method -GetorgAssign_PA00002
+2024-11-13 11:14:14.891 +05:30 [INF] Method -GetorgAssign_PA00002
+2024-11-13 11:14:14.892 +05:30 [INF] Url -GetorgAssign_PA00000 - http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110
+2024-11-13 11:14:14.893 +05:30 [INF]  SendGetRequestAsync
+2024-11-13 11:14:14.894 +05:30 [INF] Start processing HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.896 +05:30 [INF] Sending HTTP request GET "http://192.168.190.85:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-13 11:14:14.943 +05:30 [INF] Received HTTP response headers after 44.7944ms - 200
+2024-11-13 11:14:14.946 +05:30 [INF] End processing HTTP request after 51.7857ms - 200
+2024-11-13 11:14:14.950 +05:30 [INF] SendGetRequestAsync enters if

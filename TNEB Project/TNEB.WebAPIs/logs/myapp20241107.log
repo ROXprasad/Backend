@@ -1,0 +1,832 @@
+2024-11-07 11:21:32.665 +05:30 [INF] Application starting up...
+2024-11-07 11:21:34.409 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-07 11:24:10.437 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-07 11:24:15.437 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 11:24:15.437 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 11:24:15.437 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:24:15.474 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:24:15.474 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 11:24:15.474 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 11:24:15.782 +05:30 [INF] Received HTTP response headers after 262.3774ms - 200
+2024-11-07 11:24:15.803 +05:30 [INF] End processing HTTP request after 404.2161ms - 200
+2024-11-07 11:24:15.819 +05:30 [INF] Received HTTP response headers after 308.3789ms - 200
+2024-11-07 11:24:15.821 +05:30 [INF] End processing HTTP request after 422.3041ms - 200
+2024-11-07 11:24:15.993 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:24:16.001 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:24:16.070 +05:30 [INF] Received HTTP response headers after 65.5434ms - 200
+2024-11-07 11:24:16.072 +05:30 [INF] End processing HTTP request after 78.5351ms - 200
+2024-11-07 11:24:16.143 +05:30 [INF] Received HTTP response headers after 634.1584ms - 200
+2024-11-07 11:24:16.146 +05:30 [INF] End processing HTTP request after 747.0591ms - 200
+2024-11-07 11:24:16.156 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 11:52:45.672 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:52:45.678 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 11:52:45.694 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:52:45.694 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 11:52:45.844 +05:30 [INF] Received HTTP response headers after 147.2812ms - 200
+2024-11-07 11:52:45.850 +05:30 [INF] End processing HTTP request after 178.9285ms - 200
+2024-11-07 11:52:45.886 +05:30 [INF] Received HTTP response headers after 187.0888ms - 200
+2024-11-07 11:52:45.898 +05:30 [INF] End processing HTTP request after 219.7471ms - 200
+2024-11-07 11:53:13.137 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 11:53:13.143 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 11:53:13.257 +05:30 [INF] Received HTTP response headers after 110.3538ms - 200
+2024-11-07 11:53:13.261 +05:30 [INF] End processing HTTP request after 123.4754ms - 200
+2024-11-07 11:53:13.268 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 11:53:23.139 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 11:53:23.142 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 11:53:23.184 +05:30 [INF] Received HTTP response headers after 40.0541ms - 200
+2024-11-07 11:53:23.188 +05:30 [INF] End processing HTTP request after 49.5296ms - 200
+2024-11-07 11:59:40.297 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:59:40.305 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:59:40.327 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 11:59:40.332 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 11:59:40.389 +05:30 [INF] Received HTTP response headers after 80.7023ms - 200
+2024-11-07 11:59:40.391 +05:30 [INF] End processing HTTP request after 94.7892ms - 200
+2024-11-07 11:59:40.398 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:59:40.401 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 11:59:40.403 +05:30 [INF] Received HTTP response headers after 67.4808ms - 200
+2024-11-07 11:59:40.409 +05:30 [INF] End processing HTTP request after 82.0661ms - 200
+2024-11-07 11:59:40.412 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 11:59:40.448 +05:30 [INF] Received HTTP response headers after 44.0543ms - 200
+2024-11-07 11:59:40.451 +05:30 [INF] End processing HTTP request after 53.4858ms - 200
+2024-11-07 12:00:22.574 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 12:00:22.592 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 12:00:22.656 +05:30 [INF] Received HTTP response headers after 57.1691ms - 200
+2024-11-07 12:00:22.670 +05:30 [INF] End processing HTTP request after 96.6629ms - 200
+2024-11-07 12:04:41.676 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:04:41.718 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:04:41.874 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:04:41.900 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:04:42.005 +05:30 [INF] Received HTTP response headers after 262.9895ms - 200
+2024-11-07 12:04:42.031 +05:30 [INF] End processing HTTP request after 355.2024ms - 200
+2024-11-07 12:04:42.050 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:04:42.054 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:04:42.096 +05:30 [INF] Received HTTP response headers after 182.7354ms - 200
+2024-11-07 12:04:42.099 +05:30 [INF] End processing HTTP request after 225.5165ms - 200
+2024-11-07 12:04:42.103 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:04:42.133 +05:30 [INF] Received HTTP response headers after 74.9714ms - 200
+2024-11-07 12:04:42.148 +05:30 [INF] End processing HTTP request after 98.6939ms - 200
+2024-11-07 12:05:26.477 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:05:26.496 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:05:26.498 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:05:26.506 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:05:26.558 +05:30 [INF] Received HTTP response headers after 56.0748ms - 200
+2024-11-07 12:05:26.558 +05:30 [INF] Received HTTP response headers after 44.2269ms - 200
+2024-11-07 12:05:26.564 +05:30 [INF] End processing HTTP request after 87.2377ms - 200
+2024-11-07 12:05:26.569 +05:30 [INF] End processing HTTP request after 72.8279ms - 200
+2024-11-07 12:05:26.580 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:05:26.582 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:05:26.590 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:05:26.634 +05:30 [INF] Received HTTP response headers after 37.095ms - 200
+2024-11-07 12:05:26.636 +05:30 [INF] End processing HTTP request after 53.9603ms - 200
+2024-11-07 12:06:18.090 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:18.124 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:18.184 +05:30 [INF] Received HTTP response headers after 50.7419ms - 200
+2024-11-07 12:06:18.186 +05:30 [INF] End processing HTTP request after 96.2904ms - 200
+2024-11-07 12:06:21.646 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:21.651 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:21.666 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:06:21.671 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:06:21.709 +05:30 [INF] Received HTTP response headers after 34.1131ms - 200
+2024-11-07 12:06:21.711 +05:30 [INF] End processing HTTP request after 44.9707ms - 200
+2024-11-07 12:06:21.714 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:06:21.719 +05:30 [INF] Received HTTP response headers after 65.1836ms - 200
+2024-11-07 12:06:21.722 +05:30 [INF] End processing HTTP request after 76.8123ms - 200
+2024-11-07 12:06:25.302 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:25.307 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:25.330 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:06:25.335 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:06:25.379 +05:30 [INF] Received HTTP response headers after 67.1042ms - 200
+2024-11-07 12:06:25.379 +05:30 [INF] Received HTTP response headers after 40.973ms - 200
+2024-11-07 12:06:25.382 +05:30 [INF] End processing HTTP request after 79.5877ms - 200
+2024-11-07 12:06:25.385 +05:30 [INF] End processing HTTP request after 54.1898ms - 200
+2024-11-07 12:06:25.393 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:06:25.399 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:25.403 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:06:25.446 +05:30 [INF] Received HTTP response headers after 38.3391ms - 200
+2024-11-07 12:06:25.448 +05:30 [INF] End processing HTTP request after 49.7544ms - 200
+2024-11-07 12:06:33.108 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 12:06:33.114 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0021_FamilyMembersSet?$format=json&sap-client=110"
+2024-11-07 12:06:33.185 +05:30 [INF] Received HTTP response headers after 64.2573ms - 200
+2024-11-07 12:06:33.189 +05:30 [INF] End processing HTTP request after 81.3774ms - 200
+2024-11-07 12:11:26.320 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet"
+2024-11-07 12:11:26.341 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet"
+2024-11-07 12:11:26.551 +05:30 [INF] Received HTTP response headers after 202.8818ms - 200
+2024-11-07 12:11:26.556 +05:30 [INF] End processing HTTP request after 236.4841ms - 200
+2024-11-07 12:12:44.520 +05:30 [INF] Application starting up...
+2024-11-07 12:12:45.649 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-07 12:13:13.406 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-07 12:13:17.548 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:13:17.569 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:13:17.739 +05:30 [INF] Received HTTP response headers after 157.8338ms - 200
+2024-11-07 12:13:17.749 +05:30 [INF] End processing HTTP request after 218.9247ms - 200
+2024-11-07 12:16:05.318 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:16:05.341 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:16:05.441 +05:30 [INF] Received HTTP response headers after 95.5171ms - 200
+2024-11-07 12:16:05.449 +05:30 [INF] End processing HTTP request after 133.8494ms - 200
+2024-11-07 12:18:45.415 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:18:45.433 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:18:45.561 +05:30 [INF] Received HTTP response headers after 121.2362ms - 200
+2024-11-07 12:18:45.569 +05:30 [INF] End processing HTTP request after 154.4419ms - 200
+2024-11-07 12:22:33.768 +05:30 [INF] Application starting up...
+2024-11-07 12:22:36.298 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-07 12:23:21.607 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-07 12:23:28.174 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:23:28.211 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:23:30.338 +05:30 [INF] Received HTTP response headers after 2108.3757ms - 200
+2024-11-07 12:23:30.358 +05:30 [INF] End processing HTTP request after 2210.1877ms - 200
+2024-11-07 12:25:12.859 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:25:12.870 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:25:12.959 +05:30 [INF] Received HTTP response headers after 82.7449ms - 200
+2024-11-07 12:25:12.965 +05:30 [INF] End processing HTTP request after 107.2737ms - 200
+2024-11-07 12:26:16.969 +05:30 [INF] Application starting up...
+2024-11-07 12:26:18.112 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-07 12:26:44.905 +05:30 [INF] Application starting up...
+2024-11-07 12:26:45.954 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-07 12:27:05.590 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-07 12:27:10.054 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:27:10.080 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:27:10.252 +05:30 [INF] Received HTTP response headers after 158.7541ms - 200
+2024-11-07 12:27:10.277 +05:30 [INF] End processing HTTP request after 244.3399ms - 200
+2024-11-07 12:27:23.916 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:27:23.920 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:27:23.969 +05:30 [INF] Received HTTP response headers after 45.0043ms - 200
+2024-11-07 12:27:23.972 +05:30 [INF] End processing HTTP request after 55.9393ms - 200
+2024-11-07 12:28:17.886 +05:30 [INF] Application starting up...
+2024-11-07 12:28:18.947 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-07 12:28:49.357 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-07 12:28:52.279 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:28:52.296 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:28:52.405 +05:30 [INF] Received HTTP response headers after 95.7318ms - 200
+2024-11-07 12:28:52.415 +05:30 [INF] End processing HTTP request after 159.4699ms - 200
+2024-11-07 12:30:22.836 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:30:22.836 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:30:22.852 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:30:22.852 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:30:22.988 +05:30 [INF] Received HTTP response headers after 123.8657ms - 200
+2024-11-07 12:30:22.991 +05:30 [INF] End processing HTTP request after 155.6522ms - 200
+2024-11-07 12:30:22.995 +05:30 [INF] Received HTTP response headers after 140.8939ms - 200
+2024-11-07 12:30:22.997 +05:30 [INF] End processing HTTP request after 161.9772ms - 200
+2024-11-07 12:30:23.002 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:30:23.138 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:30:23.140 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:30:23.205 +05:30 [INF] Received HTTP response headers after 63.13ms - 200
+2024-11-07 12:30:23.210 +05:30 [INF] End processing HTTP request after 72.1223ms - 200
+2024-11-07 12:33:25.429 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:25.457 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:33:25.496 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:25.506 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:33:25.639 +05:30 [INF] Received HTTP response headers after 116.1299ms - 200
+2024-11-07 12:33:25.647 +05:30 [INF] End processing HTTP request after 190.1728ms - 200
+2024-11-07 12:33:25.653 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:33:25.642 +05:30 [INF] Received HTTP response headers after 130.0521ms - 200
+2024-11-07 12:33:25.665 +05:30 [INF] End processing HTTP request after 236.3292ms - 200
+2024-11-07 12:33:25.675 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:25.682 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:25.731 +05:30 [INF] Received HTTP response headers after 42.0534ms - 200
+2024-11-07 12:33:25.735 +05:30 [INF] End processing HTTP request after 59.9386ms - 200
+2024-11-07 12:33:52.714 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:52.718 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:52.741 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:33:52.750 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:33:52.764 +05:30 [INF] Received HTTP response headers after 41.6211ms - 200
+2024-11-07 12:33:52.766 +05:30 [INF] End processing HTTP request after 51.885ms - 200
+2024-11-07 12:33:52.773 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:52.776 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:33:52.797 +05:30 [INF] Received HTTP response headers after 45.5492ms - 200
+2024-11-07 12:33:52.800 +05:30 [INF] End processing HTTP request after 59.2959ms - 200
+2024-11-07 12:33:52.802 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:33:52.818 +05:30 [INF] Received HTTP response headers after 38.5858ms - 200
+2024-11-07 12:33:52.825 +05:30 [INF] End processing HTTP request after 51.6336ms - 200
+2024-11-07 12:34:39.543 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:34:39.544 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:34:39.565 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:34:39.578 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 12:34:39.625 +05:30 [INF] Received HTTP response headers after 45.3784ms - 200
+2024-11-07 12:34:39.625 +05:30 [INF] Received HTTP response headers after 39.867ms - 200
+2024-11-07 12:34:39.637 +05:30 [INF] End processing HTTP request after 94.6545ms - 200
+2024-11-07 12:34:39.637 +05:30 [INF] End processing HTTP request after 93.2454ms - 200
+2024-11-07 12:34:39.651 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 12:34:39.667 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:34:39.670 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 12:34:39.708 +05:30 [INF] Received HTTP response headers after 36.0699ms - 200
+2024-11-07 12:34:39.712 +05:30 [INF] End processing HTTP request after 44.816ms - 200
+2024-11-07 12:34:53.517 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:34:53.534 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 12:34:53.578 +05:30 [INF] Received HTTP response headers after 40.3813ms - 200
+2024-11-07 12:34:53.583 +05:30 [INF] End processing HTTP request after 66.554ms - 200
+2024-11-07 13:06:35.116 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:06:35.147 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:06:38.196 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:06:38.199 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:07:01.028 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:07:01.190 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:07:02.074 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:07:02.135 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:07:03.327 +05:30 [INF] Received HTTP response headers after 1246.8112ms - 200
+2024-11-07 13:07:03.487 +05:30 [INF] End processing HTTP request after 2459.6173ms - 200
+2024-11-07 13:07:04.265 +05:30 [INF] Received HTTP response headers after 1423.3507ms - 200
+2024-11-07 13:07:04.385 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:07:06.068 +05:30 [INF] End processing HTTP request after 3993.7003ms - 200
+2024-11-07 13:07:06.275 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:07:06.290 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 13:07:07.034 +05:30 [INF] Received HTTP response headers after 748.4607ms - 200
+2024-11-07 13:07:07.037 +05:30 [INF] End processing HTTP request after 2652.8883ms - 200
+2024-11-07 13:07:19.217 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method121(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:07:19.217 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method115(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:07:28.978 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:07:28.983 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:07:29.036 +05:30 [INF] Received HTTP response headers after 49.1115ms - 200
+2024-11-07 13:07:29.041 +05:30 [INF] End processing HTTP request after 63.7642ms - 200
+2024-11-07 13:14:33.792 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:14:33.812 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:14:34.593 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:14:34.598 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:15:01.770 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method115(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:15:01.770 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method121(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:15:02.266 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:15:02.266 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:15:02.271 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:15:02.273 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:15:02.472 +05:30 [INF] Received HTTP response headers after 195.7685ms - 200
+2024-11-07 13:15:02.488 +05:30 [INF] End processing HTTP request after 222.8936ms - 200
+2024-11-07 13:15:02.527 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:15:02.532 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:15:02.539 +05:30 [INF] Received HTTP response headers after 256.6355ms - 200
+2024-11-07 13:15:02.557 +05:30 [INF] End processing HTTP request after 292.3903ms - 200
+2024-11-07 13:15:02.571 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 13:15:02.584 +05:30 [INF] Received HTTP response headers after 41.6053ms - 200
+2024-11-07 13:15:02.593 +05:30 [INF] End processing HTTP request after 65.9778ms - 200
+2024-11-07 13:18:44.436 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:18:44.503 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:18:44.512 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:18:44.514 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:18:44.957 +05:30 [INF] Received HTTP response headers after 441.0383ms - 200
+2024-11-07 13:18:44.962 +05:30 [INF] End processing HTTP request after 458.7795ms - 200
+2024-11-07 13:18:44.974 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"12000222","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(253402214400000)\/","StartDate":"\/Date(1141171200000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1714953600000)\/","Changedby":"CORE_HR1","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"INSTITUTE NAME","Country":"IN","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"18","Certificate_Description":"BFA/BVA","Durofcourse":"2","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00064","Brofstudy1_Description":"Economics with Insurance & Finance","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"60.0","UniversityBoard":"UNIVERSY NAME","RegisterNo":"555","CertificateNo":"99999","PassedON":"200603","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('12000222')/Personalno"}}]}
+2024-11-07 13:18:44.991 +05:30 [INF] Received HTTP response headers after 469.9189ms - 200
+2024-11-07 13:18:45.040 +05:30 [INF] End processing HTTP request after 605.0012ms - 200
+2024-11-07 13:18:45.055 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:18:45.057 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:18:45.124 +05:30 [INF] Received HTTP response headers after 65.4679ms - 200
+2024-11-07 13:18:45.126 +05:30 [INF] End processing HTTP request after 70.6962ms - 200
+2024-11-07 13:19:05.092 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:19:05.260 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:19:05.320 +05:30 [INF] Received HTTP response headers after 56.7928ms - 200
+2024-11-07 13:19:05.325 +05:30 [INF] End processing HTTP request after 233.5139ms - 200
+2024-11-07 13:19:34.411 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.402 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.402 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.404 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.406 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.408 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.461 +05:30 [INF] Received HTTP response headers after 47.0859ms - 200
+2024-11-07 13:19:37.464 +05:30 [INF] End processing HTTP request after 62.4057ms - 200
+2024-11-07 13:19:37.483 +05:30 [INF] Received HTTP response headers after 62.2181ms - 200
+2024-11-07 13:19:37.483 +05:30 [INF] Received HTTP response headers after 72.9963ms - 200
+2024-11-07 13:19:37.485 +05:30 [INF] End processing HTTP request after 82.5914ms - 200
+2024-11-07 13:19:37.487 +05:30 [INF] End processing HTTP request after 3075.6948ms - 200
+2024-11-07 13:19:37.488 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:19:37.495 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.497 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:19:37.545 +05:30 [INF] Received HTTP response headers after 45.4029ms - 200
+2024-11-07 13:19:37.547 +05:30 [INF] End processing HTTP request after 52.1089ms - 200
+2024-11-07 13:20:12.700 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:20:12.706 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:20:12.794 +05:30 [INF] Received HTTP response headers after 84.1507ms - 200
+2024-11-07 13:20:12.799 +05:30 [INF] End processing HTTP request after 99.733ms - 200
+2024-11-07 13:20:13.877 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:20:13.913 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:20:13.918 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:20:13.922 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:20:13.960 +05:30 [INF] Received HTTP response headers after 43.204ms - 200
+2024-11-07 13:20:13.962 +05:30 [INF] End processing HTTP request after 85.1783ms - 200
+2024-11-07 13:20:13.963 +05:30 [INF] Received HTTP response headers after 39.4456ms - 200
+2024-11-07 13:20:13.970 +05:30 [INF] End processing HTTP request after 52.8563ms - 200
+2024-11-07 13:20:13.972 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:20:39.662 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:20:39.671 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:20:40.130 +05:30 [INF] Received HTTP response headers after 453.2544ms - 200
+2024-11-07 13:20:40.133 +05:30 [INF] End processing HTTP request after 471.3189ms - 200
+2024-11-07 13:21:33.724 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:21:33.738 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:21:33.738 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:21:33.742 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:21:33.836 +05:30 [INF] Received HTTP response headers after 92.4911ms - 200
+2024-11-07 13:21:33.836 +05:30 [INF] Received HTTP response headers after 95.3555ms - 200
+2024-11-07 13:21:33.838 +05:30 [INF] End processing HTTP request after 99.4032ms - 200
+2024-11-07 13:21:33.839 +05:30 [INF] End processing HTTP request after 115.1229ms - 200
+2024-11-07 13:21:33.842 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:21:33.852 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:21:33.861 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:21:33.908 +05:30 [INF] Received HTTP response headers after 45.2223ms - 200
+2024-11-07 13:21:33.916 +05:30 [INF] End processing HTTP request after 63.7747ms - 200
+2024-11-07 13:22:18.429 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:22:18.435 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:22:18.514 +05:30 [INF] Received HTTP response headers after 75.1256ms - 200
+2024-11-07 13:22:18.515 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:22:18.521 +05:30 [INF] End processing HTTP request after 92.2887ms - 200
+2024-11-07 13:22:18.525 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:22:18.545 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:22:18.574 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:22:18.576 +05:30 [INF] Received HTTP response headers after 40.1797ms - 200
+2024-11-07 13:22:18.581 +05:30 [INF] End processing HTTP request after 66.2932ms - 200
+2024-11-07 13:22:18.584 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:22:18.634 +05:30 [INF] Received HTTP response headers after 58.7219ms - 200
+2024-11-07 13:22:18.637 +05:30 [INF] End processing HTTP request after 91.3917ms - 200
+2024-11-07 13:22:33.226 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:22:33.232 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:22:33.281 +05:30 [INF] Received HTTP response headers after 43.1521ms - 200
+2024-11-07 13:22:33.287 +05:30 [INF] End processing HTTP request after 61.2002ms - 200
+2024-11-07 13:36:23.436 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:36:23.436 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:36:23.455 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:36:23.455 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:36:35.091 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:36:35.109 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:36:35.312 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:36:36.106 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:36:38.904 +05:30 [INF] Received HTTP response headers after 3787.0938ms - 200
+2024-11-07 13:36:38.974 +05:30 [INF] End processing HTTP request after 3882.7133ms - 200
+2024-11-07 13:36:39.295 +05:30 [INF] Received HTTP response headers after 1074.7075ms - 200
+2024-11-07 13:36:39.348 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:36:39.466 +05:30 [INF] End processing HTTP request after 4153.9056ms - 200
+2024-11-07 13:36:39.535 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:36:39.718 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:36:39.868 +05:30 [INF] Received HTTP response headers after 98.9898ms - 200
+2024-11-07 13:36:40.134 +05:30 [INF] End processing HTTP request after 785.5515ms - 200
+2024-11-07 13:36:46.648 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method115(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:36:46.846 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method121(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:36:52.184 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:36:52.293 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:36:52.344 +05:30 [INF] Received HTTP response headers after 50.2337ms - 200
+2024-11-07 13:36:52.348 +05:30 [INF] End processing HTTP request after 164.3661ms - 200
+2024-11-07 13:37:55.885 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:37:55.888 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:37:55.923 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:37:55.927 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:37:55.986 +05:30 [INF] Received HTTP response headers after 89.312ms - 200
+2024-11-07 13:37:56.016 +05:30 [INF] End processing HTTP request after 131.6484ms - 200
+2024-11-07 13:37:56.040 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:37:56.043 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:37:56.064 +05:30 [INF] Received HTTP response headers after 134.5174ms - 200
+2024-11-07 13:37:56.066 +05:30 [INF] End processing HTTP request after 143.389ms - 200
+2024-11-07 13:37:56.072 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:37:56.087 +05:30 [INF] Received HTTP response headers after 41.9371ms - 200
+2024-11-07 13:37:56.089 +05:30 [INF] End processing HTTP request after 48.5445ms - 200
+2024-11-07 13:38:03.647 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:38:03.651 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:38:03.694 +05:30 [INF] Received HTTP response headers after 38.289ms - 200
+2024-11-07 13:38:03.699 +05:30 [INF] End processing HTTP request after 51.8164ms - 200
+2024-11-07 13:38:24.863 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:38:24.869 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:38:24.886 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:38:24.923 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:38:26.634 +05:30 [INF] Received HTTP response headers after 1708.0832ms - 200
+2024-11-07 13:38:26.640 +05:30 [INF] End processing HTTP request after 1754.3715ms - 200
+2024-11-07 13:38:26.645 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:38:26.690 +05:30 [INF] Received HTTP response headers after 1817.4254ms - 200
+2024-11-07 13:38:26.693 +05:30 [INF] End processing HTTP request after 1829.6036ms - 200
+2024-11-07 13:38:26.702 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:38:26.707 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:38:26.774 +05:30 [INF] Received HTTP response headers after 63.1893ms - 200
+2024-11-07 13:38:26.776 +05:30 [INF] End processing HTTP request after 73.9352ms - 200
+2024-11-07 13:38:34.495 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:38:34.501 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:38:34.553 +05:30 [INF] Received HTTP response headers after 46.8456ms - 200
+2024-11-07 13:38:34.561 +05:30 [INF] End processing HTTP request after 65.6366ms - 200
+2024-11-07 13:39:08.756 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:39:08.759 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:39:08.789 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:39:08.792 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:39:08.811 +05:30 [INF] Received HTTP response headers after 49.5251ms - 200
+2024-11-07 13:39:08.815 +05:30 [INF] End processing HTTP request after 59.3916ms - 200
+2024-11-07 13:39:08.833 +05:30 [INF] Received HTTP response headers after 37.9535ms - 200
+2024-11-07 13:39:08.838 +05:30 [INF] End processing HTTP request after 48.8873ms - 200
+2024-11-07 13:39:08.842 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:39:08.843 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:39:08.846 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:39:08.891 +05:30 [INF] Received HTTP response headers after 43.9533ms - 200
+2024-11-07 13:39:08.893 +05:30 [INF] End processing HTTP request after 50.0187ms - 200
+2024-11-07 13:39:19.087 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:39:19.101 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:39:19.143 +05:30 [INF] Received HTTP response headers after 36.7064ms - 200
+2024-11-07 13:39:19.149 +05:30 [INF] End processing HTTP request after 61.9982ms - 200
+2024-11-07 13:53:47.346 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:53:47.346 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:53:47.376 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:53:47.377 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:54:08.995 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:54:09.355 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:54:09.479 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:54:09.733 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:54:13.030 +05:30 [INF] Received HTTP response headers after 3370.7313ms - 200
+2024-11-07 13:54:13.033 +05:30 [INF] Received HTTP response headers after 3100.6103ms - 200
+2024-11-07 13:54:15.936 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method121(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:54:14.772 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method115(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-07 13:54:15.680 +05:30 [INF] End processing HTTP request after 6688.5457ms - 200
+2024-11-07 13:54:16.445 +05:30 [INF] End processing HTTP request after 6965.9676ms - 200
+2024-11-07 13:54:16.753 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:54:16.799 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:54:16.807 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:54:16.856 +05:30 [INF] Received HTTP response headers after 42.0025ms - 200
+2024-11-07 13:54:16.863 +05:30 [INF] End processing HTTP request after 64.7454ms - 200
+2024-11-07 13:54:42.093 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:54:42.097 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:54:42.148 +05:30 [INF] Received HTTP response headers after 46.5159ms - 200
+2024-11-07 13:54:42.149 +05:30 [INF] End processing HTTP request after 56.339ms - 200
+2024-11-07 13:55:07.492 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:55:07.495 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:55:07.540 +05:30 [INF] Received HTTP response headers after 42.4185ms - 200
+2024-11-07 13:55:07.541 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:55:07.542 +05:30 [INF] End processing HTTP request after 50.6886ms - 200
+2024-11-07 13:55:07.546 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:55:07.563 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:55:07.566 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:55:07.601 +05:30 [INF] Received HTTP response headers after 43.6316ms - 200
+2024-11-07 13:55:07.603 +05:30 [INF] End processing HTTP request after 62.838ms - 200
+2024-11-07 13:55:07.605 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:55:07.631 +05:30 [INF] Received HTTP response headers after 62.4606ms - 200
+2024-11-07 13:55:07.635 +05:30 [INF] End processing HTTP request after 71.89ms - 200
+2024-11-07 13:55:32.939 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:55:32.946 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:55:33.001 +05:30 [INF] Received HTTP response headers after 49.4136ms - 200
+2024-11-07 13:55:33.010 +05:30 [INF] End processing HTTP request after 70.4158ms - 200
+2024-11-07 13:56:17.059 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:56:17.062 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:56:17.105 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:56:17.107 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:56:17.152 +05:30 [INF] Received HTTP response headers after 88.4231ms - 200
+2024-11-07 13:56:17.154 +05:30 [INF] End processing HTTP request after 95.1162ms - 200
+2024-11-07 13:56:17.160 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:56:17.161 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:56:17.167 +05:30 [INF] Received HTTP response headers after 58.6636ms - 200
+2024-11-07 13:56:17.169 +05:30 [INF] End processing HTTP request after 64.3244ms - 200
+2024-11-07 13:56:17.171 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:56:17.200 +05:30 [INF] Received HTTP response headers after 37.2352ms - 200
+2024-11-07 13:56:17.202 +05:30 [INF] End processing HTTP request after 42.3501ms - 200
+2024-11-07 13:56:36.042 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:56:36.046 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:56:36.099 +05:30 [INF] Received HTTP response headers after 46.9069ms - 200
+2024-11-07 13:56:36.104 +05:30 [INF] End processing HTTP request after 62.5236ms - 200
+2024-11-07 13:57:47.502 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:57:47.504 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:57:47.512 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:57:47.512 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 13:57:47.611 +05:30 [INF] Received HTTP response headers after 92.3394ms - 200
+2024-11-07 13:57:47.614 +05:30 [INF] End processing HTTP request after 114.295ms - 200
+2024-11-07 13:57:47.617 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 13:57:47.636 +05:30 [INF] Received HTTP response headers after 121.8321ms - 200
+2024-11-07 13:57:47.638 +05:30 [INF] End processing HTTP request after 138.8502ms - 200
+2024-11-07 13:57:47.648 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:57:47.650 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 13:57:47.691 +05:30 [INF] Received HTTP response headers after 39.259ms - 200
+2024-11-07 13:57:47.693 +05:30 [INF] End processing HTTP request after 45.6346ms - 200
+2024-11-07 13:58:02.855 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:58:02.862 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 13:58:02.905 +05:30 [INF] Received HTTP response headers after 38.5643ms - 200
+2024-11-07 13:58:02.908 +05:30 [INF] End processing HTTP request after 52.3891ms - 200
+2024-11-07 14:00:36.634 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 14:00:36.634 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 14:00:36.650 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 14:00:36.651 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-07 14:00:36.809 +05:30 [INF] Received HTTP response headers after 156.0489ms - 200
+2024-11-07 14:00:36.812 +05:30 [INF] End processing HTTP request after 183.0369ms - 200
+2024-11-07 14:00:36.809 +05:30 [INF] Received HTTP response headers after 146.1326ms - 200
+2024-11-07 14:00:36.820 +05:30 [INF] End processing HTTP request after 190.2926ms - 200
+2024-11-07 14:00:36.823 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-07 14:00:36.850 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 14:00:36.853 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-07 14:00:36.908 +05:30 [INF] Received HTTP response headers after 52.1724ms - 200
+2024-11-07 14:00:36.910 +05:30 [INF] End processing HTTP request after 59.9607ms - 200
+2024-11-07 14:01:10.139 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 14:01:10.178 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-07 14:01:10.245 +05:30 [INF] Received HTTP response headers after 61.6671ms - 200
+2024-11-07 14:01:10.252 +05:30 [INF] End processing HTTP request after 117.4633ms - 200

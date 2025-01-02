@@ -1,0 +1,17 @@
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.WebAPIs.exe
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.WebAPIs.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.WebAPIs.deps.json
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.WebAPIs.runtimeconfig.json
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.WebAPIs.pdb
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.BusinessLogics.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.DataModels.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.SAPInterface.dll
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.BusinessLogics.pdb
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.DataModels.pdb
+D:\TNEB\TNEB.WebAPIs\obj\Release\net6.0\PubTmp\Out\TNEB.SAPInterface.pdb

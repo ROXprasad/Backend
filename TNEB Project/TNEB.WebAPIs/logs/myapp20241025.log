@@ -1,0 +1,75 @@
+2024-10-25 12:27:21.420 +05:30 [INF] Application starting up...
+2024-10-25 12:27:22.462 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-25 12:35:59.956 +05:30 [INF] Application starting up...
+2024-10-25 12:36:00.546 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-25 12:38:14.462 +05:30 [INF] This is an info log message.
+2024-10-25 13:01:36.004 +05:30 [INF] Application starting up...
+2024-10-25 13:01:36.656 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-25 13:01:57.473 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:01:57.484 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:01:58.670 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:02:36.423 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:02:36.426 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:03:21.393 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:03:49.253 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:03:49.278 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:03:59.788 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:05:14.365 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:05:15.550 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:05:34.966 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:05:48.944 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:05:50.914 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:06:20.499 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:06:57.353 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:06:58.816 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:08:13.778 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:08:21.424 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:08:22.251 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:09:25.468 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:11:33.454 +05:30 [INF] Application starting up...
+2024-10-25 13:11:35.449 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-25 13:12:17.832 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:12:18.890 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:12:22.209 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-10-25 13:12:29.834 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-10-25 13:12:42.661 +05:30 [INF] This is an AddRegistrationAsync catch enters Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskExtensions.ExecuteWithTimeout(Func`2 func, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|27_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at TNEB.BusinessLogics.Logics.Registration.AddRegistrationAsync(RegistrationDetails registrationDetails) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\Registration.cs:line 41
+2024-10-25 13:12:43.413 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-10-25 13:14:16.297 +05:30 [INF] Application starting up...
+2024-10-25 13:14:17.559 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-25 13:15:24.151 +05:30 [INF] Application starting up...
+2024-10-25 13:15:25.971 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-25 13:15:51.862 +05:30 [INF] This is an Registerationform enters
+2024-10-25 13:15:52.389 +05:30 [INF] This is an Registerationform try enters
+2024-10-25 13:15:53.052 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-10-25 13:15:55.730 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-10-25 13:15:55.742 +05:30 [INF] This is an AddRegistrationAsync dbconnection enters Host=127.0.0.1:5432;Database=tneb;Username=postgres;Password=Admin@123
+2024-10-25 13:16:05.671 +05:30 [INF] This is an AddRegistrationAsync catch enters Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskExtensions.ExecuteWithTimeout(Func`2 func, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|27_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at TNEB.BusinessLogics.Logics.Registration.AddRegistrationAsync(RegistrationDetails registrationDetails) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\Registration.cs:line 42
+2024-10-25 13:16:23.928 +05:30 [INF] This is an Registerationform Internal Server enters

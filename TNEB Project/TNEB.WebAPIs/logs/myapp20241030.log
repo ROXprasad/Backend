@@ -1,0 +1,11 @@
+2024-10-30 16:42:11.063 +05:30 [INF] Application starting up...
+2024-10-30 16:42:11.894 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-30 16:44:24.474 +05:30 [INF] Application starting up...
+2024-10-30 16:44:26.015 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-10-30 16:45:18.516 +05:30 [INF] This is an Registerationform enters
+2024-10-30 16:45:19.373 +05:30 [INF] This is an Registerationform try enters
+2024-10-30 16:45:22.524 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-10-30 16:45:24.794 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-10-30 16:45:24.811 +05:30 [INF] This is an AddRegistrationAsync dbconnection enters Host=localhost;Database=TNEB;Username=postgres;Password=admin@123
+2024-10-30 16:45:33.268 +05:30 [INF] This is an AddRegistrationAsync catch enters
+2024-10-30 16:45:35.596 +05:30 [INF] This is an Registerationform success enters

@@ -1,0 +1,912 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{713C3A46-43AC-45EE-88E3-EB1DC00C054F}|TNEB.SAPInterface\\TNEB.SAPInterface.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.sapinterface\\sapodata_employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{713C3A46-43AC-45EE-88E3-EB1DC00C054F}|TNEB.SAPInterface\\TNEB.SAPInterface.csproj|solutionrelative:tneb.sapinterface\\sapodata_employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\tneb.webapis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\tneb.webapis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b7db4c7db0269d6b18b9f089e3df4bcd897effa5122e9e6fc3b5e80de08e7578\\WebApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\postimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\postimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\logics\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\logics\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\tneb.businesslogics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\tneb.businesslogics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa005.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa005.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0019.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0019.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0018.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0018.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0017.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0017.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0016.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0016.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0015.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0015.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0014.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0014.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0013.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0013.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0012.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0012.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0011.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0011.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0010.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0010.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0009.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0009.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\logics\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\logics\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\interface\\iregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\interface\\iregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\SourceServer\\63176cf7b608206b534ae807104d2ec19bab637b8352fb3785ff043ad307c584\\src\\DefaultBuilder\\src\\BootstrapHostBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\logs\\myapp20241112.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\logs\\myapp20241112.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{713C3A46-43AC-45EE-88E3-EB1DC00C054F}|TNEB.SAPInterface\\TNEB.SAPInterface.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.sapinterface\\tneb.sapinterface.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{713C3A46-43AC-45EE-88E3-EB1DC00C054F}|TNEB.SAPInterface\\TNEB.SAPInterface.csproj|solutionrelative:tneb.sapinterface\\tneb.sapinterface.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0006.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0006.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_supersets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_supersets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\logics\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\logics\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\interface\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\interface\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0004.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0004.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\logs\\myapp20241105.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\logs\\myapp20241105.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofile_pa0000.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofile_pa0000.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\registrationdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\registrationdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.businesslogics\\commonandinternalclass\\encriptiondescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A2FFF6-7639-4542-BF94-49631E70A32C}|TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj|solutionrelative:tneb.businesslogics\\commonandinternalclass\\encriptiondescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\tneb.datamodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\tneb.datamodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\loginusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\loginusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\logs\\myapp20241104.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\logs\\myapp20241104.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.webapis\\logs\\myapp20241025.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6EFBC90-D574-4CC9-BCA2-C84A871993A7}|TNEB.WebAPIs\\TNEB.WebAPIs.csproj|solutionrelative:tneb.webapis\\logs\\myapp20241025.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\5056455ef98c4f8d643e6da91972564dc7105e8d947eab1dcc4600c014178c45\\Socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|d:\\backend\\tneb_web_backend\\tneb project\\tneb.datamodels\\employeeprofilemodels\\empprofilewrapresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249DCA5-EAAA-43B0-B3C8-B52CAF7BC5B2}|TNEB.DataModels\\TNEB.DataModels.csproj|solutionrelative:tneb.datamodels\\employeeprofilemodels\\empprofilewrapresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SAPOData_EmployeeProfile.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.SAPInterface\\SAPOData_EmployeeProfile.cs",
+              "RelativeDocumentMoniker": "TNEB.SAPInterface\\SAPOData_EmployeeProfile.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.SAPInterface\\SAPOData_EmployeeProfile.cs",
+              "RelativeToolTip": "TNEB.SAPInterface\\SAPOData_EmployeeProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:06:30.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TNEB.WebAPIs.csproj",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\TNEB.WebAPIs.csproj",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\TNEB.WebAPIs.csproj",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\TNEB.WebAPIs.csproj",
+              "RelativeToolTip": "TNEB.WebAPIs\\TNEB.WebAPIs.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T07:09:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Program.cs",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\Program.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Program.cs",
+              "RelativeToolTip": "TNEB.WebAPIs\\Program.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAgwIQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:21:56.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Logics\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\Logics\\EmployeeService.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Logics\\EmployeeService.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\Logics\\EmployeeService.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAABQwEUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:31:12.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Startup.cs",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\Startup.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Startup.cs",
+              "RelativeToolTip": "TNEB.WebAPIs\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:22:35.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\appsettings.json",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\appsettings.json",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\appsettings.json",
+              "RelativeToolTip": "TNEB.WebAPIs\\appsettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T05:42:10.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b7db4c7db0269d6b18b9f089e3df4bcd897effa5122e9e6fc3b5e80de08e7578\\WebApplication.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b7db4c7db0269d6b18b9f089e3df4bcd897effa5122e9e6fc3b5e80de08e7578\\WebApplication.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAswFoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:48:13.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "TNEB.WebAPIs\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAIBJwJsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:30:16.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Interface\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\Interface\\IEmployeeService.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Interface\\IEmployeeService.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\Interface\\IEmployeeService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIA3wCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:31:13.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostImage.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\PostImage.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\PostImage.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\PostImage.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\PostImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:09:42.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TNEB.BusinessLogics.csproj",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj",
+              "RelativeToolTip": "TNEB.BusinessLogics\\TNEB.BusinessLogics.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-25T07:28:33.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmpProfile_PA005.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA005.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA005.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA005.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA005.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:52:27.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "TNEB.WebAPIs\\Controllers\\RegistrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:53:41.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TNEB.WebAPIs\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T06:05:37.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmpProfile_PA0019.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0019.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0019.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0019.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0019.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:25:12.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmpProfile_PA0018.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0018.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0018.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0018.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0018.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:24:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmpProfile_PA0017.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0017.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0017.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0017.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0017.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:23:57.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmpProfile_PA0016.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0016.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0016.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0016.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0016.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:23:22.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmpProfile_PA0015.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0015.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0015.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0015.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0015.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:22:52.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmpProfile_PA0014.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0014.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0014.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0014.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0014.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA4wDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:21:53.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmpProfile_PA0013.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0013.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0013.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0013.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0013.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:20:32.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmpProfile_PA0012.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0012.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0012.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0012.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0012.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA4wCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:19:59.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmpProfile_PA0011.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0011.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0011.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0011.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0011.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:18:56.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmpProfile_PA0010.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0010.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0010.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0010.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0010.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAA4wD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:18:16.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmpProfile_PA0009.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0009.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0009.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0009.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0009.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA4wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:17:33.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmpProfile_PA0008.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0008.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0008.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0008.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0008.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA4wCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:16:56.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmpProfile_PA0007.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0007.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0007.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0007.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0007.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA8wBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:15:58.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Logics\\Registration.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\Logics\\Registration.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Logics\\Registration.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\Logics\\Registration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:53:41.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRegistration.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Interface\\IRegistration.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\Interface\\IRegistration.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Interface\\IRegistration.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\Interface\\IRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:05:07.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\appsettings.Development.json",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\appsettings.Development.json",
+              "RelativeToolTip": "TNEB.WebAPIs\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T05:43:18.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BootstrapHostBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\SourceServer\\63176cf7b608206b534ae807104d2ec19bab637b8352fb3785ff043ad307c584\\src\\DefaultBuilder\\src\\BootstrapHostBuilder.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Local\\SourceServer\\63176cf7b608206b534ae807104d2ec19bab637b8352fb3785ff043ad307c584\\src\\DefaultBuilder\\src\\BootstrapHostBuilder.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAawH8AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:20:39.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "myapp20241112.log",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241112.log",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\logs\\myapp20241112.log",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241112.log",
+              "RelativeToolTip": "TNEB.WebAPIs\\logs\\myapp20241112.log",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAiwJ4AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-12T07:45:49.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TNEB.SAPInterface.csproj",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.SAPInterface\\TNEB.SAPInterface.csproj",
+              "RelativeDocumentMoniker": "TNEB.SAPInterface\\TNEB.SAPInterface.csproj",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.SAPInterface\\TNEB.SAPInterface.csproj",
+              "RelativeToolTip": "TNEB.SAPInterface\\TNEB.SAPInterface.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T08:24:59.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmpProfile_PA0006.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0006.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0006.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0006.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0006.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:22:36.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TNEB.WebAPIs\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAIBJwCsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:49:48.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EmpProfile_PA0001.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0001.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0001.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0001.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0001.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:11:19.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmpProfile_SuperSets.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_SuperSets.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_SuperSets.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_SuperSets.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_SuperSets.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:31:57.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EmpProfile_PA0004.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0004.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0004.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0004.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0004.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:33:57.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "loginService.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Logics\\loginService.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\Logics\\loginService.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Logics\\loginService.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\Logics\\loginService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIBZwCQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:49:48.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IloginService.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Interface\\IloginService.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\Interface\\IloginService.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\Interface\\IloginService.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\Interface\\IloginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:25:51.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmpProfile_PA0002.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0002.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0002.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0002.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0002.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA3wBsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:00:57.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EmpProfile_PA0003.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0003.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0003.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0003.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0003.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA1wAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:24:34.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "myapp20241105.log",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241105.log",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\logs\\myapp20241105.log",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241105.log",
+              "RelativeToolTip": "TNEB.WebAPIs\\logs\\myapp20241105.log",
+              "ViewState": "AQIAAOoDAAAAAAAAAABRwPIDAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-05T09:29:18.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EmpProfile_PA0000.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0000.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0000.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0000.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfile_PA0000.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:10:22.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Tokens.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\Tokens.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\Tokens.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\Tokens.cs",
+              "RelativeToolTip": "TNEB.DataModels\\Tokens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:31:02.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RegistrationDetails.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\RegistrationDetails.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\RegistrationDetails.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\RegistrationDetails.cs",
+              "RelativeToolTip": "TNEB.DataModels\\RegistrationDetails.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:34:36.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "loginUsers.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\loginUsers.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\loginUsers.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\loginUsers.cs",
+              "RelativeToolTip": "TNEB.DataModels\\loginUsers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:31:05.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EncriptionDescription.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\CommonAndInternalClass\\EncriptionDescription.cs",
+              "RelativeDocumentMoniker": "TNEB.BusinessLogics\\CommonAndInternalClass\\EncriptionDescription.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.BusinessLogics\\CommonAndInternalClass\\EncriptionDescription.cs",
+              "RelativeToolTip": "TNEB.BusinessLogics\\CommonAndInternalClass\\EncriptionDescription.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwCYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:02:18.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "myapp20241104.log",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241104.log",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\logs\\myapp20241104.log",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241104.log",
+              "RelativeToolTip": "TNEB.WebAPIs\\logs\\myapp20241104.log",
+              "ViewState": "AQIAAAIBAAAAAAAAAABRwAkBAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T06:19:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TNEB.DataModels.csproj",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\TNEB.DataModels.csproj",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\TNEB.DataModels.csproj",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\TNEB.DataModels.csproj",
+              "RelativeToolTip": "TNEB.DataModels\\TNEB.DataModels.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T10:16:09.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "myapp20241025.log",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241025.log",
+              "RelativeDocumentMoniker": "TNEB.WebAPIs\\logs\\myapp20241025.log",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.WebAPIs\\logs\\myapp20241025.log",
+              "RelativeToolTip": "TNEB.WebAPIs\\logs\\myapp20241025.log",
+              "ViewState": "AQIAAAsAAAAAAAAAAABRwAkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-30T05:39:32.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Socket.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\5056455ef98c4f8d643e6da91972564dc7105e8d947eab1dcc4600c014178c45\\Socket.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\5056455ef98c4f8d643e6da91972564dc7105e8d947eab1dcc4600c014178c45\\Socket.cs",
+              "ViewState": "AQIAAM0NAAAAAAAAAIBZwIoOAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:18:22.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EmpProfileWrapResponse.cs",
+              "DocumentMoniker": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfileWrapResponse.cs",
+              "RelativeDocumentMoniker": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfileWrapResponse.cs",
+              "ToolTip": "D:\\BACKEND\\TNEB_WEB_BACKEND\\TNEB Project\\TNEB.DataModels\\EmployeeProfileModels\\EmpProfileWrapResponse.cs",
+              "RelativeToolTip": "TNEB.DataModels\\EmployeeProfileModels\\EmpProfileWrapResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:14:02.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

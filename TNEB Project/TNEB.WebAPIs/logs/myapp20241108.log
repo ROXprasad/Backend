@@ -1,0 +1,880 @@
+2024-11-08 10:20:57.424 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:20:57.472 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:20:57.522 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:20:57.523 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:21:17.471 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:21:17.478 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:21:26.208 +05:30 [ERR] An unhandled exception has occurred: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method115(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:21:26.235 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method121(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:21:40.135 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method121(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:28:31.852 +05:30 [INF] Application starting up...
+2024-11-08 10:28:32.907 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 10:29:32.332 +05:30 [INF] Application starting up...
+2024-11-08 10:29:33.810 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 10:30:16.420 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-08 10:31:01.487 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:31:01.487 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:31:01.521 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:31:01.521 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:31:21.426 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:31:21.433 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:31:34.677 +05:30 [ERR] An unhandled exception has occurred: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method29(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:31:34.677 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:31:47.018 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:33:07.353 +05:30 [INF] This is an Registerationform enters
+2024-11-08 10:33:07.361 +05:30 [INF] This is an Registerationform try enters
+2024-11-08 10:33:07.389 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-11-08 10:33:07.398 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-11-08 10:33:07.400 +05:30 [INF] This is an AddRegistrationAsync dbconnection enters Host=localhost;Database=TNEB;Username=postgres;Password=admin@123
+2024-11-08 10:33:07.462 +05:30 [INF] This is an AddRegistrationAsync catch enters
+2024-11-08 10:33:07.475 +05:30 [INF] This is an Registerationform success enters
+2024-11-08 10:33:21.784 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:33:21.792 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:33:21.808 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:33:21.835 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:33:41.816 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:33:41.824 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:33:51.613 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:33:52.057 +05:30 [ERR] An unhandled exception has occurred: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method29(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:34:07.281 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:40:04.349 +05:30 [INF] This is an Registerationform enters
+2024-11-08 10:40:04.360 +05:30 [INF] This is an Registerationform try enters
+2024-11-08 10:40:04.366 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-11-08 10:40:04.381 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-11-08 10:40:04.385 +05:30 [INF] This is an AddRegistrationAsync dbconnection enters Host=localhost;Database=TNEB;Username=postgres;Password=admin@123
+2024-11-08 10:40:04.424 +05:30 [INF] This is an AddRegistrationAsync catch enters
+2024-11-08 10:40:04.426 +05:30 [INF] This is an Registerationform success enters
+2024-11-08 10:40:19.116 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:19.117 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:40:19.121 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:19.125 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:40:28.367 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:28.376 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:29.129 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:40:29.266 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:40:35.484 +05:30 [INF] Received HTTP response headers after 13954.4233ms - 200
+2024-11-08 10:40:35.484 +05:30 [INF] Received HTTP response headers after 3601.2844ms - 200
+2024-11-08 10:40:36.635 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method29(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:40:36.656 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:40:36.749 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:40:36.654 +05:30 [INF] End processing HTTP request after 7561.8484ms - 200
+2024-11-08 10:40:36.642 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:36.654 +05:30 [INF] End processing HTTP request after 17540.0436ms - 200
+2024-11-08 10:40:36.808 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:40:36.843 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:36.866 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-08 10:40:36.928 +05:30 [INF] Received HTTP response headers after 72.5614ms - 200
+2024-11-08 10:40:36.931 +05:30 [INF] End processing HTTP request after 289.3563ms - 200
+2024-11-08 10:40:36.940 +05:30 [INF] Received HTTP response headers after 93.2378ms - 200
+2024-11-08 10:40:36.944 +05:30 [INF] End processing HTTP request after 288.3647ms - 200
+2024-11-08 10:40:36.952 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-08 10:40:37.111 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:37.114 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:40:37.163 +05:30 [INF] Received HTTP response headers after 45.0649ms - 200
+2024-11-08 10:40:37.164 +05:30 [INF] End processing HTTP request after 53.2332ms - 200
+2024-11-08 10:40:48.338 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-08 10:40:48.342 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-08 10:40:48.417 +05:30 [INF] Received HTTP response headers after 71.7607ms - 200
+2024-11-08 10:40:48.421 +05:30 [INF] End processing HTTP request after 82.6972ms - 200
+2024-11-08 10:41:00.147 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:41:00.148 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:41:00.150 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:41:00.153 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:41:00.239 +05:30 [INF] Received HTTP response headers after 77.7307ms - 200
+2024-11-08 10:41:00.241 +05:30 [INF] End processing HTTP request after 92.9447ms - 200
+2024-11-08 10:41:00.244 +05:30 [INF] {"d":{"results":[{"__metadata":{"id":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')","type":"ZAPI_HCM_ESSMSS_001_SRV.PA0022_Education"},"PersonnelNo":"10000027","Infotype":"","Subtype":"10","Subtype_Desrciption":"UG","ObjectID":"","Lockindicator":"","EndDate":"\/Date(1648771200000)\/","StartDate":"\/Date(1554076800000)\/","ITrecordno":"000","Action":"","ChangedOn":"\/Date(1724976000000)\/","Changedby":"ROX_HCM3","Historicalrec":"","Textexists":false,"Refexists":false,"Conffieldsex":false,"Screencontrol":"","ChangeReason":"","ReservedField1":"","ReservedField2":"","ReservedField3":"","ReservedField4":"","ReservedFieldLen2_1":"","ReservedFieldLen2_2":"","GroupingValue":"","Educest":"10","Educest_Description":"UG","InstituteLoc":"SRM Ramapuram","Country":"","EducTraining":"00000001","EducTraining_Description":"Regular","Certificate":"10","Certificate_Description":"B.B.A.","Durofcourse":"3","TimeunitMeas":"013","TimeunitMeas_Description":"Years","Brofstudy1":"00217","Brofstudy1_Description":"Business Analytics","Brofstudy2":"00000","Coursefees":"0.000","Currency":"","Planindicator":false,"Costobject":"","Repaymntobligation":false,"Coursename":"","CourseAppraisal":"","InsSccode":"0000000000","Facultycode":"000","Department":"","FinalGrade":"9.5","UniversityBoard":"SRM UNIVERSITY","RegisterNo":"RA1930203020008","CertificateNo":"RA1930203020008","PassedON":"202220","Personalno":{"__deferred":{"uri":"http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet('10000027')/Personalno"}}]}
+2024-11-08 10:41:00.261 +05:30 [INF] Received HTTP response headers after 105.8835ms - 200
+2024-11-08 10:41:00.263 +05:30 [INF] End processing HTTP request after 116.7563ms - 200
+2024-11-08 10:41:00.271 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:41:00.275 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:41:00.319 +05:30 [INF] Received HTTP response headers after 35.3477ms - 200
+2024-11-08 10:41:00.329 +05:30 [INF] End processing HTTP request after 58.232ms - 200
+2024-11-08 10:41:16.744 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-08 10:41:16.746 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0004_ChallengesSet?$format=json&sap-client=110"
+2024-11-08 10:41:16.788 +05:30 [INF] Received HTTP response headers after 40.1853ms - 200
+2024-11-08 10:41:16.794 +05:30 [INF] End processing HTTP request after 50.2986ms - 200
+2024-11-08 10:53:15.331 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:53:15.331 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:53:15.355 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 10:53:15.357 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:53:41.030 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:53:42.645 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method20(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:53:42.646 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 10:53:43.381 +05:30 [ERR] An unhandled exception has occurred: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: An established connection was aborted by the software in your host machine. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method29(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 10:53:44.895 +05:30 [INF] Received HTTP response headers after 1171.6022ms - 200
+2024-11-08 10:53:44.911 +05:30 [INF] End processing HTTP request after 3965.3597ms - 200
+2024-11-08 11:41:55.210 +05:30 [INF] Application starting up...
+2024-11-08 11:42:16.353 +05:30 [INF] Application starting up...
+2024-11-08 11:42:17.116 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 11:42:48.117 +05:30 [INF] Application starting up...
+2024-11-08 11:42:48.693 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 11:54:55.556 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-08 11:54:56.225 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 11:54:56.225 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 11:54:56.243 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 11:54:56.243 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0022_EducationSet?$format=json&sap-client=110"
+2024-11-08 11:55:14.486 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 11:55:14.494 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 11:55:23.734 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 11:55:23.734 +05:30 [ERR] An unhandled exception has occurred: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 58
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetEduDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 65
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0003(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 54
+   at lambda_method10(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 11:55:38.592 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 12:08:16.761 +05:30 [INF] Application starting up...
+2024-11-08 12:08:17.747 +05:30 [WRN] Overriding address(es) 'http://*:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 12:08:47.296 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-08 12:08:47.843 +05:30 [INF] Start processing HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 12:08:47.873 +05:30 [INF] Sending HTTP request GET "http://tansapde1.tangedco.local:8000/sap/opu/odata/sap/ZAPI_HCM_ESSMSS_001_SRV/PA0002_PersonalDetailsSet?$format=json&sap-client=110"
+2024-11-08 12:09:10.208 +05:30 [ERR] An unhandled exception has occurred: An error occurred while fetching personal details
+System.Exception: An error occurred while fetching personal details
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (tansapde1.tangedco.local:8000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.SendGetRequestAsync(String requestUri, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 30
+   at TNEB.SAPInterface.SAPOData_EmployeeProfile.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.SAPInterface\SAPOData_EmployeeProfile.cs:line 53
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 34
+   --- End of inner exception stack trace ---
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetDetailsAsync[T](Func`2 getDataFunc, String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 44
+   at TNEB.BusinessLogics.Logics.EmployeeService.GetPersonalDetailsAsync(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\EmployeeService.cs:line 59
+   at TNEB.WebAPIs.Controllers.EmployeeController.GetpersonalDet_PA0002(String personalno) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Controllers\EmployeeController.cs:line 48
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\Program.cs:line 97
+2024-11-08 12:58:25.880 +05:30 [INF] Application starting up...
+2024-11-08 12:58:26.804 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 12:58:55.188 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-08 12:58:55.638 +05:30 [INF] This is an info log message.
+2024-11-08 13:03:53.905 +05:30 [INF] This is an Registerationform enters
+2024-11-08 13:03:55.825 +05:30 [INF] This is an Registerationform try enters
+2024-11-08 13:03:58.379 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-11-08 13:03:58.458 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-11-08 13:03:58.460 +05:30 [INF] This is an AddRegistrationAsync dbconnection enters Host=127.0.0.1:5432;Database=tneb;Username=postgres;Password=Admin@123
+2024-11-08 13:04:10.382 +05:30 [INF] This is an AddRegistrationAsync catch enters Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|223_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|27_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at TNEB.BusinessLogics.Logics.Registration.AddRegistrationAsync(RegistrationDetails registrationDetails) in D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\Logics\Registration.cs:line 46
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+2024-11-08 13:04:11.879 +05:30 [INF] This is an Registerationform Internal Server enters
+2024-11-08 15:11:01.139 +05:30 [INF] Application starting up...
+2024-11-08 15:11:02.247 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 15:11:50.921 +05:30 [INF] Application starting up...
+2024-11-08 15:11:51.474 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 15:16:10.323 +05:30 [INF] Application starting up...
+2024-11-08 15:16:10.977 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 15:16:47.334 +05:30 [INF] Application starting up...
+2024-11-08 15:16:48.179 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 15:16:56.059 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-08 15:16:57.067 +05:30 [INF] This is an Registerationform enters
+2024-11-08 15:16:57.072 +05:30 [INF] This is an Registerationform try enters
+2024-11-08 15:16:57.178 +05:30 [INF] This is an AddRegistrationAsync method enters
+2024-11-08 15:16:57.237 +05:30 [INF] This is an AddRegistrationAsync try enters
+2024-11-08 15:16:57.241 +05:30 [INF] This is an AddRegistrationAsync dbconnection enters Host=localhost;Database=TNEB;Username=postgres;Password=admin@123
+2024-11-08 15:16:59.287 +05:30 [INF] This is an AddRegistrationAsync catch enters
+2024-11-08 15:16:59.297 +05:30 [INF] This is an Registerationform success enters
+2024-11-08 16:48:28.358 +05:30 [INF] Application starting up...
+2024-11-08 16:48:30.255 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-11-08 16:48:41.357 +05:30 [WRN] Failed to determine the https port for redirect.

@@ -1,0 +1,264 @@
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.Development.json
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.json
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.exe
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.deps.json
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.runtimeconfig.json
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.AssemblyReference.cache
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfoInputs.cache
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfo.cs
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.CoreCompileInputs.cache
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cs
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cache
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.build.json
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.development.json
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.TNEB.WebAPIs.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.build.TNEB.WebAPIs.props
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TNEB.WebAPIs.props
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TNEB.WebAPIs.props
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.pack.json
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\scopedcss\bundle\TNEB.WebAPIs.styles.css
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.Web.44DC2CE7.Up2Date
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\refint\TNEB.WebAPIs.dll
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.genruntimeconfig.cache
+D:\TNEB\TNEB.WebAPIs\obj\Debug\net6.0\ref\TNEB.WebAPIs.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.Development.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.exe
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.deps.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.runtimeconfig.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.AssemblyReference.cache
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfoInputs.cache
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfo.cs
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.CoreCompileInputs.cache
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cs
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cache
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.build.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.development.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.TNEB.WebAPIs.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.build.TNEB.WebAPIs.props
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TNEB.WebAPIs.props
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TNEB.WebAPIs.props
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.pack.json
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\scopedcss\bundle\TNEB.WebAPIs.styles.css
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.Web.44DC2CE7.Up2Date
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\refint\TNEB.WebAPIs.dll
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.genruntimeconfig.cache
+D:\TNEB_old_29.May.2024\TNEB.WebAPIs\obj\Debug\net6.0\ref\TNEB.WebAPIs.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.Development.json
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.json
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.exe
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.deps.json
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.runtimeconfig.json
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.AssemblyReference.cache
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfoInputs.cache
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfo.cs
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.CoreCompileInputs.cache
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cs
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cache
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.build.json
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.development.json
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.TNEB.WebAPIs.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.build.TNEB.WebAPIs.props
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TNEB.WebAPIs.props
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TNEB.WebAPIs.props
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.pack.json
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\scopedcss\bundle\TNEB.WebAPIs.styles.css
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.Web.44DC2CE7.Up2Date
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\refint\TNEB.WebAPIs.dll
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.genruntimeconfig.cache
+D:\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\ref\TNEB.WebAPIs.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.exe
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.deps.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.runtimeconfig.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.TNEB.WebAPIs.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.build.TNEB.WebAPIs.props
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TNEB.WebAPIs.props
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TNEB.WebAPIs.props
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\scopedcss\bundle\TNEB.WebAPIs.styles.css
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.Web.44DC2CE7.Up2Date
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\refint\TNEB.WebAPIs.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.genruntimeconfig.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\ref\TNEB.WebAPIs.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.Development.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\appsettings.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.exe
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.deps.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.runtimeconfig.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Npgsql.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Text.Json.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.AssemblyReference.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfoInputs.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.AssemblyInfo.cs
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.csproj.CoreCompileInputs.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cs
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.MvcApplicationPartsAssemblyInfo.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.sourcelink.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.build.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.development.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.TNEB.WebAPIs.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.build.TNEB.WebAPIs.props
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TNEB.WebAPIs.props
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TNEB.WebAPIs.props
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\staticwebassets.pack.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\scopedcss\bundle\TNEB.WebAPIs.styles.css
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.Web.44DC2CE7.Up2Date
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\refint\TNEB.WebAPIs.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\TNEB.WebAPIs.genruntimeconfig.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\obj\Debug\net6.0\ref\TNEB.WebAPIs.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.WebAPIs\bin\Debug\net6.0\AutoMapper.dll

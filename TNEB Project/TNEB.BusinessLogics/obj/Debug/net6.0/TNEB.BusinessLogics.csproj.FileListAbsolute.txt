@@ -1,0 +1,86 @@
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.deps.json
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.AssemblyReference.cache
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfoInputs.cache
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfo.cs
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.CoreCompileInputs.cache
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.Bus.CAC99781.Up2Date
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\refint\TNEB.BusinessLogics.dll
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB\TNEB.BusinessLogics\obj\Debug\net6.0\ref\TNEB.BusinessLogics.dll
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.deps.json
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.AssemblyReference.cache
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfoInputs.cache
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfo.cs
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.CoreCompileInputs.cache
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.Bus.CAC99781.Up2Date
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\refint\TNEB.BusinessLogics.dll
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB_old_29.May.2024\TNEB.BusinessLogics\obj\Debug\net6.0\ref\TNEB.BusinessLogics.dll
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.deps.json
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.AssemblyReference.cache
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfoInputs.cache
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfo.cs
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.CoreCompileInputs.cache
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.Bus.CAC99781.Up2Date
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\refint\TNEB.BusinessLogics.dll
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\ref\TNEB.BusinessLogics.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.deps.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.Bus.CAC99781.Up2Date
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\refint\TNEB.BusinessLogics.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\ref\TNEB.BusinessLogics.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.deps.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\bin\Debug\net6.0\TNEB.SAPInterface.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.AssemblyReference.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfoInputs.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.AssemblyInfo.cs
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.csproj.CoreCompileInputs.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.sourcelink.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.Bus.CAC99781.Up2Date
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\refint\TNEB.BusinessLogics.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\TNEB.BusinessLogics.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.BusinessLogics\obj\Debug\net6.0\ref\TNEB.BusinessLogics.dll

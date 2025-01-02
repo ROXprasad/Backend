@@ -1,0 +1,57 @@
+D:\TNEB\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.deps.json
+D:\TNEB\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfoInputs.cache
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfo.cs
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.csproj.CoreCompileInputs.cache
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\refint\TNEB.DataModels.dll
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB\TNEB.DataModels\obj\Debug\net6.0\ref\TNEB.DataModels.dll
+D:\TNEB_old_29.May.2024\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.deps.json
+D:\TNEB_old_29.May.2024\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_old_29.May.2024\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfoInputs.cache
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfo.cs
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.csproj.CoreCompileInputs.cache
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\refint\TNEB.DataModels.dll
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_old_29.May.2024\TNEB.DataModels\obj\Debug\net6.0\ref\TNEB.DataModels.dll
+D:\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.deps.json
+D:\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfoInputs.cache
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfo.cs
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.csproj.CoreCompileInputs.cache
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\refint\TNEB.DataModels.dll
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\ref\TNEB.DataModels.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.deps.json
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\refint\TNEB.DataModels.dll
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.pdb
+C:\Users\Lenovo\Documents\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\ref\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.deps.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\bin\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfoInputs.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.AssemblyInfo.cs
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.csproj.CoreCompileInputs.cache
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.sourcelink.json
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\refint\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.pdb
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\ref\TNEB.DataModels.dll
+D:\TNEB_WEB_BACKEND\TNEB Project\TNEB.DataModels\obj\Debug\net6.0\TNEB.DataModels.csproj.AssemblyReference.cache
