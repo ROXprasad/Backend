@@ -13,6 +13,7 @@ namespace TNEB.DataModels.EmployeeProfileModels
         public string Customer_specific { get; set; }
         public string Employment { get; set; }
         public string Specialpayment { get; set; }
+        public string date {  get; set; }
     }
 
    
